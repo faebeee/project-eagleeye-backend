@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "tap \"test/**/*.test.js\"",
-    "dev": "fastify start -w -l info -P --port 4000 app.js"
+    "dev": "fastify start -w -l info -P --port 4000 app.js",
+    "start": "fastify start --port 4000 app.js"
   },
   "keywords": [],
   "author": "",
