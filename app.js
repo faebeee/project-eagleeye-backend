@@ -6,7 +6,7 @@ import * as url from 'url';
 
 // Pass --options via CLI arguments in command to enable these options.
 export const options = {
-  port:4000
+  port:process.env.PORT
 };
 
 export default async function(fastify, opts) {
