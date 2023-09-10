@@ -12,6 +12,10 @@
     "dev": "fastify start -w -l info -P --port 4000 app.js",
     "start": "fastify start -l info app.js --port $PORT"
   },
+  "engines": {
+    "node": "18.16",
+    "npm": "8.5"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
