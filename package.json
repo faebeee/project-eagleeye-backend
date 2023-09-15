@@ -32,6 +32,7 @@
     "fastify-cli": "^5.8.0",
     "fastify-plugin": "^4.0.0",
     "get-css": "^4.0.3",
+    "loadtest": "^8.0.2",
     "microdata-parser-ts": "^0.0.1",
     "node-weblyse": "^1.0.0-beta.3",
     "open-graph-scraper": "^6.2.2",
@@ -39,7 +40,10 @@
     "robots-parser": "^3.0.1",
     "simple-website-audit": "^1.2.0",
     "sitemap-xml-parser": "^0.0.2",
-    "website-analysis-api": "github:duckystudios/website-analysis-api"
+    "uproc-wappalyzer": "^1.0.2",
+    "wappalyzer": "^7.0.3",
+    "website-analysis-api": "github:duckystudios/website-analysis-api",
+    "whoiser": "^1.17.1"
   },
   "devDependencies": {
     "@types/node": "^20.6.0",
