@@ -9,8 +9,8 @@
   },
   "scripts": {
     "test": "tap \"test/**/*.test.js\"",
-    "dev": "fastify start -w -l info -P --port 4000 app.js",
-    "start": "fastify start -l info app.js --port $PORT"
+    "dev": "fastify start -w -l info -P --port 4000 index.js",
+    "start": "fastify start --port 8080 index.js"
   },
   "engines": {
     "node": "18.16",
@@ -24,6 +24,7 @@
     "@fastify/bearer-auth": "^9.0.0",
     "@fastify/cors": "^8.3.0",
     "@fastify/sensible": "^5.0.0",
+    "builtwith": "^1.0.2",
     "cssstats": "^4.0.5",
     "domain-digger": "^0.0.3",
     "evaluatory": "^3.1.0",
