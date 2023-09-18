@@ -3,3 +3,6 @@ build:
 
 run:
 	docker run --env AUTH_SECRET="Zcn1j1QTfHP2ab&atdFc" -p 8080:8080 --name eagleeye-backend faebeee/eagleeye-backend
+
+publish:
+	docker push faebeee/eagleeye-backend:latest
