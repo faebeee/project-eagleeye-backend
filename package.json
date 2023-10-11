@@ -40,6 +40,7 @@
     "open-graph-scraper": "^6.2.2",
     "psi": "^4.1.0",
     "robots-parser": "^3.0.1",
+    "seo-scraper": "^2.0.2",
     "simple-website-audit": "^1.2.0",
     "sitemap-xml-parser": "^0.0.2",
     "uproc-wappalyzer": "^1.0.2",
